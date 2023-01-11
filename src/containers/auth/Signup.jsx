@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 
 import {connect} from 'react-redux'
 import { signup } from '../../redux/actions/auth'
-import video from './../../oasis2.mp4'
+// import video from './../../oasis2.mp4'
 const Signup = ({
   signup
 }) => {
