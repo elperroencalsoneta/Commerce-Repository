@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 
 import {connect} from 'react-redux'
 import { signup } from '../../redux/actions/auth'
-
+import video from './../../oasis2.mp4'
 const Signup = ({
   signup
 }) => {
@@ -42,21 +42,25 @@ const Signup = ({
   return (
     <Layout>
       <div className="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+      
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
-          <img
+          {/* <img
             className="mx-auto h-12 w-auto"
-            src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+            src="https://tailwindui.com/img/logos/workflow-mark-stone-700.svg"
             alt="Workflow"
-          />
-          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Register</h2>
+          /> */}
+          <h2 className="mt-6 text-center text-3xl font-extrabold text-yellow-900">Register</h2>
           
         </div>
-
+        {/* <video src={video} autoPlay loop muted style={{width: 2100}}></video> */}
         <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+        
           <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+         
             <form onSubmit={e=>onSubmit(e)} className="space-y-6">
               <div>
-                <label htmlFor="first_name" className="block text-sm font-medium text-gray-700">
+              
+                <label htmlFor="first_name" className="block text-sm font-medium text-yellow-700">
                   First Name
                 </label>
                 <div className="mt-1">
@@ -71,7 +75,7 @@ const Signup = ({
                 </div>
               </div>
               <div>
-                <label htmlFor="last_name" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="last_name" className="block text-sm font-medium text-yellow-700">
                   Last Name
                 </label>
                 <div className="mt-1">
@@ -87,7 +91,7 @@ const Signup = ({
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="email" className="block text-sm font-medium text-yellow-700">
                   Email address
                 </label>
                 <div className="mt-1">
@@ -103,7 +107,7 @@ const Signup = ({
               </div>
 
               <div>
-                <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="password" className="block text-sm font-medium text-yellow-700">
                   Password
                 </label>
                 <div className="mt-1">
@@ -119,7 +123,7 @@ const Signup = ({
               </div>
               
               <div>
-                <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="password" className="block text-sm font-medium text-yellow-700">
                   Repeat Password
                 </label>
                 <div className="mt-1">
@@ -138,7 +142,7 @@ const Signup = ({
               <div>
                 <button
                   type="submit"
-                  className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-yellow-600 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Register
                 </button>

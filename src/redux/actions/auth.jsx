@@ -63,16 +63,17 @@ export const check_authenticated = () => async dispatch => {
 }
 
 
+
 export const signup = (first_name, last_name, email, password, re_password) => async dispatch => {
     dispatch({
         type: SET_AUTH_LOADING
-    })
+    });
+
     const config = {
         headers: {
             'Content-Type': 'application/json'
         }
     };
-
 
     const body = JSON.stringify({
         first_name,
@@ -100,14 +101,14 @@ export const signup = (first_name, last_name, email, password, re_password) => a
         dispatch({
             type: REMOVE_AUTH_LOADING
         });
-    } 
-    catch (err) {
+    } catch (err) {
         dispatch({
             type: SIGNUP_FAIL
         });
         dispatch({
             type: REMOVE_AUTH_LOADING
         });
+        dispatch(setAlert('Error conectando con el servidor, intenta mas tarde.', 'red'));
     }
 };
 

@@ -1,0 +1,15 @@
+
+  Usage: cli.js [options]
+
+  Options:
+
+    -h, --help            output usage information
+    -c, --config [value]  db-config file
+    -o, --output [value]  output filename
+    -s, --silent          no console output
+    -f, --force           override file if existing
+    -d, --dry-run         don't create files
+    -D, --debug           print error object
+    -T, --trace           print stacktrace
+    -V, --version         output the version number
+

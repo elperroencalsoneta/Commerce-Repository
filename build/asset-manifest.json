@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bb6d0f1.css",
-    "main.js": "/static/js/main.ddef7f90.js",
-    "index.html": "/index.html"
+    "main.css": "./static/css/main.12a9f098.css",
+    "main.js": "./static/js/main.e24d82fb.js",
+    "static/media/oasis2.mp4": "./static/media/oasis2.b2b09012313498eeb3f1.mp4",
+    "static/media/video.mp4": "./static/media/video.c6b1fe4c56afa92bf61a.mp4",
+    "index.html": "./index.html"
   },
   "entrypoints": [
-    "static/css/main.3bb6d0f1.css",
-    "static/js/main.ddef7f90.js"
+    "static/css/main.12a9f098.css",
+    "static/js/main.e24d82fb.js"
   ]
 }

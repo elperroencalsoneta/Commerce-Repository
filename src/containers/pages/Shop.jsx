@@ -162,7 +162,13 @@ const Shop = ({
     return (
         <Layout>
             <div className="bg-white">
-      <div>
+      <div style={{ backgroundColor: 'white',
+            height:'100vh',
+            marginTop:'-70px',
+            // fontSize:'50px',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            }} >
         {/* Mobile filter dialog */}
         <Transition.Root show={mobileFiltersOpen} as={Fragment}>
           <Dialog as="div" className="fixed inset-0 flex z-40 lg:hidden" onClose={setMobileFiltersOpen}>

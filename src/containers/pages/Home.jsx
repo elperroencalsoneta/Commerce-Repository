@@ -5,7 +5,7 @@ import {
     get_products_by_sold,
     
 } from '../../redux/actions/products';
-import { useEffect } from "react";
+import { useEffect, Component, React } from "react";
 import Banner from "../../components/home/Banner";
 import ProductsArrival from "../../components/home/ProductsArrival";
 import ProductsSold from "../../components/home/ProductSold";
@@ -25,14 +25,15 @@ const Home = ({
         get_products_by_sold();
     }, [get_products_by_arrival, get_products_by_sold]);
 
+
+
     return (
         <Layout>
-            <div className="text-blue-500">
-            {/* <ProductsArrival data={products_arrival}/>
-            <ProductsSold data={products_sold}/> */}
-           <Banner  />
+            <div className="text-blue-500"
+             >
+            <Banner  />
             <ProductsArrival data={products_arrival}/>
-            <ProductsSold data={products_sold}/>
+            <ProductsSold data={products_sold}/> 
             </div>
         </Layout>
     )

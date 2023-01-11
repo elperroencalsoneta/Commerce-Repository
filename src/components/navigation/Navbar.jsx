@@ -28,7 +28,7 @@ import { useEffect } from 'react'
 import Alert from '../../components/alert'
 
 
-const solutions = [
+const Options = [
   {
     name: 'Analytics',
     description: 'Get a better understanding of where your traffic is coming from.',
@@ -224,12 +224,12 @@ function Navbar({
 
   const guestLinks = (
     <Fragment>
-      <Link to="/login" className="text-base font-medium text-gray-500 hover:text-gray-900">
+      <Link to="/login" className="text-base font-medium text-yellow-600 hover:text-amber-400">
         Sign in
       </Link>
       <Link
         to="/signup"
-        className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+        className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-yellow-600 hover:bg-yellow-500"
       >
         Sign up
       </Link>
@@ -238,15 +238,15 @@ function Navbar({
 
 
   return (
-    <Popover className="relative bg-white">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+    <Popover className="relative bg-gray-900">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6" style={{marginTop: -10}}>
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
-              <span className="sr-only">Your Company</span>
+            <a href="/">
+              <span className="sr-only">Nathi´s Oasis</span>
               <img
                 className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src="https://tailwindui.com/img/logos/mark.svg?color=yellow&shade=600"
                 alt=""
               />
             </a>
@@ -254,7 +254,7 @@ function Navbar({
           <div className="-my-2 -mr-2 md:hidden">
             <Link to="/cart" className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
 
-               <ShoppingCartIcon className="h-8 w-8 cursor-pointer text-gray-300 mr-4"/>
+               <ShoppingCartIcon className="h-8 w-8 cursor-pointer text-gray-300 mr-4 hover:text-pink-500" />
                <span className="text-xs absolute top-1 mt-3 ml-4 bg-red-500 text-white font-semibold rounded-full px-2 text-center">{total_items}</span>
             </Link>
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -263,18 +263,18 @@ function Navbar({
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden space-x-10 md:flex">
-            <Popover className="relative">
+            <Popover className="relative" style={{marginTop: 10}}>
               {({ open }) => (
                 <>
                   <Popover.Button
                     className={classNames(
-                      open ? 'text-gray-900' : 'text-gray-500',
-                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                      open ? 'text-yellow-600' : 'text-yellow-600',
+                      'group inline-flex items-center rounded-md bg-gray-900 text-base font-medium hover:text-yellow-500'
                     )}
                   >
-                    <span>Solutions</span>
+                    {/* <span>Options</span> */}
                     {/* CHEVRON DOWN ICON */}
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    {/* <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg> */}
                   </Popover.Button>
 
                   <Transition
@@ -286,36 +286,36 @@ function Navbar({
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 translate-y-1"
                   >
-                    <Popover.Panel className="absolute z-10 -ml-4 mt-3 w-screen max-w-md transform px-2 sm:px-0 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2">
-                      <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-                        <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                          {solutions.map((item) => (
+                    <Popover.Panel className="absolute z-10 -ml-4 mt-3 w-screen max-w-md transform px-2 sm:px-0 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2" >
+                      <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5"  >
+                        {/* <div className="relative grid gap-6 bg-gray-50 px-5 py-6 sm:gap-8 sm:p-8">
+                          {Options.map((item) => (
                             <a
                               key={item.name}
                               href={item.href}
-                              className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
+                              className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-100"
                             >
-                              <item.icon className="h-6 w-6 flex-shrink-0 text-indigo-600" aria-hidden="true" />
+                              <item.icon className="h-6 w-6 flex-shrink-0 text-pink-600" aria-hidden="true" />
                               <div className="ml-4">
-                                <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                <p className="text-base font-medium text-pink-600">{item.name}</p>
                                 <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                               </div>
                             </a>
                           ))}
                         </div>
-                        <div className="space-y-6 bg-gray-50 px-5 py-5 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
+                        <div className="space-y-6 bg-pink-50 px-5 py-5 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                           {callsToAction.map((item) => (
                             <div key={item.name} className="flow-root">
                               <a
                                 href={item.href}
-                                className="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900 hover:bg-gray-100"
+                                className="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900 hover:bg-pink-200"
                               >
-                                <item.icon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
+                                <item.icon className="h-6 w-6 flex-shrink-0 text-pink-400" aria-hidden="true" />
                                 <span className="ml-3">{item.name}</span>
                               </a>
                             </div>
                           ))}
-                        </div>
+                        </div> */}
                       </div>
                     </Popover.Panel>
                   </Transition>
@@ -323,8 +323,8 @@ function Navbar({
               )}
             </Popover>
 
-            <a href="/shop"  className="mt-2 text-base font-medium text-gray-500 hover:text-gray-900">
-              Shop
+            <a href="/shop"  className="mt-2 text-base font-medium text-yellow-600 hover:text-yellow-500" style={{marginTop: 12}}>
+              Gallerie
             </a>
             <SearchBox
             search={search}
@@ -376,7 +376,7 @@ function Navbar({
               </div>
               <div className="mt-6">
                 <nav className="grid gap-y-8">
-                  {solutions.map((item) => (
+                  {Options.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
@@ -408,13 +408,13 @@ function Navbar({
               <div className="mt-6">
               {isAuthenticated?<Link
                   to="/dashboard"
-                  className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                  className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-pink-600 hover:bg-indigo-700"
                 >
                   Sign up
                 </Link>:
                 <a
                 href="#"
-                className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-pink-600 hover:bg-indigo-700"
               >
                 Sign up
               </a>}
@@ -422,9 +422,9 @@ function Navbar({
 
 
 
-                <p className="mt-6 text-center text-base font-medium text-gray-500">
+                <p className="mt-6 text-center text-base font-medium text-stone-500">
                   Existing customer?{' '}
-                  <Link href="#" className="text-indigo-600 hover:text-indigo-500">
+                  <Link href="#" className="text-stone-600 hover:text-pink-400">
                     Sign in
                   </Link>
                 </p>
