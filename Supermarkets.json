@@ -1,0 +1,401 @@
+[
+    {
+        "model": "supermarket.supermarket",
+        "pk": 0,
+        "fields": {
+            "name": "Lidl",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18b20a4bfecc3%3A0x7208ab27f3185e09&engine=google_maps_photos&hl=en",
+            "address": "Sieker Landstra\u00dfe 45, 22143 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 7AM Thu",
+            "operating_hours": {
+                "wednesday": "7AM\u20139PM",
+                "thursday": "7AM\u20139PM",
+                "friday": "7AM\u20139PM",
+                "saturday": "7AM\u20134PM",
+                "sunday": "Closed",
+                "monday": "7AM\u20139PM",
+                "tuesday": "7AM\u20139PM"
+            },
+            "website": "https://www.lidl.de/",
+            "distance": 0.18
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 2,
+        "fields": {
+            "name": "E aktiv markt Dalinger",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18b2018a02ef9%3A0x4dcadf824dcedd61&engine=google_maps_photos&hl=en",
+            "address": "Sieker Landstra\u00dfe 31, 22143 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 7:30AM Thu",
+            "operating_hours": {
+                "wednesday": "7:30AM\u20139PM",
+                "thursday": "7:30AM\u20139PM",
+                "friday": "7:30AM\u201310PM",
+                "saturday": "7:30AM\u201310PM",
+                "sunday": "Closed",
+                "monday": "7:30AM\u20139PM",
+                "tuesday": "7:30AM\u20139PM"
+            },
+            "website": "https://www.edeka.de/eh/nord/e-aktiv-markt-dalinger-sieker-landstr.-31/index.jsp",
+            "distance": 0.24
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 1,
+        "fields": {
+            "name": "ALDI Nord",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18b2020971843%3A0x1d0ac986c0aaa4f6&engine=google_maps_photos&hl=en",
+            "address": "Sieker Landstra\u00dfe 29, 22143 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 7AM Thu",
+            "operating_hours": {
+                "wednesday": "7AM\u20139PM",
+                "thursday": "7AM\u20139PM",
+                "friday": "7AM\u20139PM",
+                "saturday": "7AM\u20139PM",
+                "sunday": "Closed",
+                "monday": "7AM\u20139PM",
+                "tuesday": "7AM\u20139PM"
+            },
+            "website": "https://www.aldi-nord.de/tools/filialen-und-oeffnungszeiten/hamburg/rahlstedt/sieker-landstrasse-29.html",
+            "distance": 0.29
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 3,
+        "fields": {
+            "name": "Edeka Struve",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18b1c98f3bed7%3A0x6a4df4566dd884c5&engine=google_maps_photos&hl=en",
+            "address": "Schweriner Str. 12, 22143 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 8AM Thu",
+            "operating_hours": {
+                "wednesday": "8AM\u20138PM",
+                "thursday": "8AM\u20138PM",
+                "friday": "8AM\u20138PM",
+                "saturday": "8AM\u20138PM",
+                "sunday": "Closed",
+                "monday": "8AM\u20138PM",
+                "tuesday": "8AM\u20138PM"
+            },
+            "website": "http://www.edeka-struve.de/",
+            "distance": 1.26
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 4,
+        "fields": {
+            "name": "Frischemarkt Hinrichs",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18b3d84afdd2d%3A0xb34bf580c0b50215&engine=google_maps_photos&hl=en",
+            "address": "Brockdorffstra\u00dfe 94-96, 22149 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 7:30AM Thu",
+            "operating_hours": {
+                "wednesday": "7:30AM\u20136PM",
+                "thursday": "7:30AM\u20136PM",
+                "friday": "7:30AM\u20136PM",
+                "saturday": "7:30AM\u20131PM",
+                "sunday": "Closed",
+                "monday": "7:30AM\u20136PM",
+                "tuesday": "7:30AM\u20136PM"
+            },
+            "website": "https://www.edeka.de/eh/nord/frischemarkt-hinrichs-brockdorffstra%C3%9Fe-96/index.jsp",
+            "distance": 1.59
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 5,
+        "fields": {
+            "name": "Netto Marken-Discount",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18a566acffe3b%3A0x701f9e1a84c259cb&engine=google_maps_photos&hl=en",
+            "address": "Greifenberger Str. 67, 22147 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 7AM Thu",
+            "operating_hours": {
+                "wednesday": "7AM\u201310PM",
+                "thursday": "7AM\u201310PM",
+                "friday": "7AM\u201310PM",
+                "saturday": "7AM\u201310PM",
+                "sunday": "Closed",
+                "monday": "7AM\u201310PM",
+                "tuesday": "7AM\u201310PM"
+            },
+            "website": "https://www.netto-online.de/filialen/Hamburg-Rahlstedt/Greifenberger-Str-67/2073/",
+            "distance": 2.43
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 8,
+        "fields": {
+            "name": "Stern Supermarkt",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18ba586f52edd%3A0x3064b9e7e8081111&engine=google_maps_photos&hl=en",
+            "address": "Rahlstedter Weg 73, 22147 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 8AM Thu",
+            "operating_hours": {
+                "wednesday": "8AM\u20138PM",
+                "thursday": "8AM\u20138PM",
+                "friday": "8AM\u20138PM",
+                "saturday": "8AM\u20138PM",
+                "sunday": "Closed",
+                "monday": "8AM\u20138PM",
+                "tuesday": "8AM\u20138PM"
+            },
+            "website": "Dieser Supermarkt hat keinen registrierten Website",
+            "distance": 3.24
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 14,
+        "fields": {
+            "name": "ALDI Nord",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18b73e6bf88f3%3A0xdc212dd5e5951a0b&engine=google_maps_photos&hl=en",
+            "address": "Berliner Pl. 21, 22045 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 8AM Thu",
+            "operating_hours": {
+                "wednesday": "8AM\u20138PM",
+                "thursday": "8AM\u20138PM",
+                "friday": "8AM\u20138PM",
+                "saturday": "8AM\u20138PM",
+                "sunday": "Closed",
+                "monday": "8AM\u20138PM",
+                "tuesday": "8AM\u20138PM"
+            },
+            "website": "https://www.aldi-nord.de/",
+            "distance": 3.42
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 6,
+        "fields": {
+            "name": "REWE",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18b73f890624b%3A0x3d3cd8c0a1756336&engine=google_maps_photos&hl=en",
+            "address": "Sch\u00f6neberger Str. 31-35, 22045 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 7AM Thu",
+            "operating_hours": {
+                "wednesday": "7AM\u201311PM",
+                "thursday": "7AM\u201311PM",
+                "friday": "7AM\u201311PM",
+                "saturday": "7AM\u20134PM",
+                "sunday": "Closed",
+                "monday": "7AM\u201311PM",
+                "tuesday": "7AM\u201311PM"
+            },
+            "website": "https://www.rewe.de/marktseite/hamburg/241061/rewe-markt-schoeneberger-str-31-35?ecid=seo_localseo_241061_g_nn_nn_nn_nn_nn",
+            "distance": 3.57
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 15,
+        "fields": {
+            "name": "Kaufland Hamburg-Farmsen",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18baf9882f3e9%3A0xb0c65d14e47ed2f2&engine=google_maps_photos&hl=en",
+            "address": "Berner Heerweg 173-175, 22159 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 7AM Thu",
+            "operating_hours": {
+                "wednesday": "7AM\u20139:30PM",
+                "thursday": "7AM\u20139:30PM",
+                "friday": "7AM\u20139:30PM",
+                "saturday": "7AM\u20132PM",
+                "sunday": "Closed",
+                "monday": "7AM\u20139:30PM",
+                "tuesday": "7AM\u20139:30PM"
+            },
+            "website": "https://www.filiale.kaufland.de/?cid=F3183B02C1200K01000W01030000D1000E1000F1000G1000H1000",
+            "distance": 3.83
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 9,
+        "fields": {
+            "name": "REWE",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18bb68dfbc451%3A0x9b3d04aad9da0a85&engine=google_maps_photos&hl=en",
+            "address": "August-Krogmann-Str. 15, 22159 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 7AM Thu",
+            "operating_hours": {
+                "wednesday": "7AM\u201311PM",
+                "thursday": "7AM\u201311PM",
+                "friday": "7AM\u201311PM",
+                "saturday": "7AM\u20134PM",
+                "sunday": "Closed",
+                "monday": "7AM\u201311PM",
+                "tuesday": "7AM\u201311PM"
+            },
+            "website": "https://www.rewe.de/marktseite/hamburg-farmsen-berne/540720/rewe-markt-august-krogmann-str-15?ecid=seo_localseo_540720_g_nn_nn_nn_nn_nn",
+            "distance": 3.94
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 7,
+        "fields": {
+            "name": "REWE Center",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18b992dbe8e67%3A0x676a322b5cf7d02a&engine=google_maps_photos&hl=en",
+            "address": "Tonndorfer Hauptstra\u00dfe 71, 22045 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 8AM Thu",
+            "operating_hours": {
+                "wednesday": "8AM\u201310PM",
+                "thursday": "8AM\u201310PM",
+                "friday": "8AM\u201310PM",
+                "saturday": "8AM\u201310PM",
+                "sunday": "Closed",
+                "monday": "8AM\u201310PM",
+                "tuesday": "8AM\u201310PM"
+            },
+            "website": "https://www.rewe.de/marktseite/hamburgtonndorf/531077/rewe-center-tonndorfer-hauptstr-71-81?ecid=seo_localseo_531077_g_nn_nn_nn_nn_nn",
+            "distance": 4.08
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 17,
+        "fields": {
+            "name": "ALDI Nord",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18a382c21710d%3A0x312595d730c2704&engine=google_maps_photos&hl=en",
+            "address": "Pezolddamm 156-158, 22159 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 7AM Thu",
+            "operating_hours": {
+                "wednesday": "7AM\u20138PM",
+                "thursday": "7AM\u20138PM",
+                "friday": "7AM\u20138PM",
+                "saturday": "7AM\u20138PM",
+                "sunday": "Closed",
+                "monday": "7AM\u20138PM",
+                "tuesday": "7AM\u20138PM"
+            },
+            "website": "https://www.aldi-nord.de/",
+            "distance": 4.41
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 10,
+        "fields": {
+            "name": "Netto Marken-Discount",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b0e3a15983a945%3A0x8988c57d741cf353&engine=google_maps_photos&hl=en",
+            "address": "Groten Hoff 21, 22359 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 7AM Thu",
+            "operating_hours": {
+                "wednesday": "7AM\u201310PM",
+                "thursday": "7AM\u201310PM",
+                "friday": "7AM\u201310PM",
+                "saturday": "7AM\u201310PM",
+                "sunday": "Closed",
+                "monday": "7AM\u201310PM",
+                "tuesday": "7AM\u201310PM"
+            },
+            "website": "https://www.netto-online.de/filialen/Hamburg/Groten-Hoff-21/2055/",
+            "distance": 4.45
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 12,
+        "fields": {
+            "name": "REWE",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18b5f32201ea7%3A0x981a4442cbb263d&engine=google_maps_photos&hl=en",
+            "address": "Am AKKU 5, 22885 Barsb\u00fcttel, Germany",
+            "open_state": "Closed \u22c5 Opens 7AM Thu",
+            "operating_hours": {
+                "wednesday": "7AM\u201310PM",
+                "thursday": "7AM\u201310PM",
+                "friday": "7AM\u201310PM",
+                "saturday": "7AM\u20134PM",
+                "sunday": "Closed",
+                "monday": "7AM\u201310PM",
+                "tuesday": "7AM\u201310PM"
+            },
+            "website": "https://www.rewe.de/marktseite/barsbuettel/561228/rewe-markt-am-akku-5?ecid=seo_localseo_561228_g_nn_nn_nn_nn_nn",
+            "distance": 4.59
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 13,
+        "fields": {
+            "name": "Netto Marken-Discount",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18b80e4d9d84d%3A0xe56d4b00546d63b1&engine=google_maps_photos&hl=en",
+            "address": "Rodigallee 217, 22043 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 7AM Thu",
+            "operating_hours": {
+                "wednesday": "7AM\u201310PM",
+                "thursday": "7AM\u201310PM",
+                "friday": "7AM\u201310PM",
+                "saturday": "7AM\u201310PM",
+                "sunday": "Closed",
+                "monday": "7AM\u201310PM",
+                "tuesday": "7AM\u201310PM"
+            },
+            "website": "https://www.netto-online.de/filialen/Hamburg/Rodigallee-217/7127/",
+            "distance": 5.39
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 16,
+        "fields": {
+            "name": "Kaufland Hamburg-Wandsbek",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18be94cce167b%3A0x16ca429007bba117&engine=google_maps_photos&hl=en",
+            "address": "Helbingtwiete 7/9, 22047 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 7AM Thu",
+            "operating_hours": {
+                "wednesday": "7AM\u201310PM",
+                "thursday": "7AM\u201310PM",
+                "friday": "7AM\u201310PM",
+                "saturday": "7AM\u20136PM",
+                "sunday": "Closed",
+                "monday": "7AM\u201310PM",
+                "tuesday": "7AM\u201310PM"
+            },
+            "website": "https://www.filiale.kaufland.de/?cid=F3183B02C1200K01000W01030000D1000E1000F1000G1000H1000",
+            "distance": 5.82
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 11,
+        "fields": {
+            "name": "REWE",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b18c7c37c7fdd5%3A0x2b06b9d6812cfcb7&engine=google_maps_photos&hl=en",
+            "address": "Schiffbeker Weg 230, 22119 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 6AM Thu",
+            "operating_hours": {
+                "wednesday": "6AM\u201310PM",
+                "thursday": "6AM\u201310PM",
+                "friday": "6AM\u201310PM",
+                "saturday": "6AM\u20136PM",
+                "sunday": "Closed",
+                "monday": "6AM\u201310PM",
+                "tuesday": "6AM\u201310PM"
+            },
+            "website": "https://www.rewe.de/marktseite/hamburg/531079/rewe-markt-schiffbeker-weg-230?ecid=seo_localseo_531079_g_nn_nn_nn_nn_nn",
+            "distance": 6.29
+        }
+    },
+    {
+        "model": "supermarket.supermarket",
+        "pk": 18,
+        "fields": {
+            "name": "REWE",
+            "photo": "https://serpapi.com/search.json?data_id=0x47b22091305b827f%3A0xff26932b20040f4b&engine=google_maps_photos&hl=en",
+            "address": "Volksdorfer Damm 188, 22359 Hamburg, Germany",
+            "open_state": "Closed \u22c5 Opens 8AM Thu",
+            "operating_hours": {
+                "wednesday": "8AM\u20138PM",
+                "thursday": "8AM\u20138PM",
+                "friday": "8AM\u20138PM",
+                "saturday": "7AM\u20134PM",
+                "sunday": "Closed",
+                "monday": "8AM\u20138PM",
+                "tuesday": "8AM\u20138PM"
+            },
+            "website": "https://www.rewe.de/marktseite/hamburg/562242/rewe-markt-volksdorfer-damm-186/?ecid=seo_localseo_440936_g_nn_nn_nn_nn_nn",
+            "distance": 7.15
+        }
+    }
+]

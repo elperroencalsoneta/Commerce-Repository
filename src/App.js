@@ -17,6 +17,7 @@ import Cart from './containers/pages/Cart';
 import Checkout from './containers/pages/Checkout';
 import ThankYou from './containers/pages/ThankYou';
 import Dashboard from './containers/pages/Dashboard';
+import OfferList from './containers/pages/Offers';
 // import PrivateRoute from  './hocs/PrivateRoute'
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
           <Route exact path='/shop' element={<Shop/>}/>
           <Route exact path='/product/:productId' element={<ProductDetail/>}/>
           <Route exact path='/search' element={<Search/>}/>
+          <Route exact path='/offers' element={<OfferList/>} />
          
           <Route exact path='/dashboard' element={<Dashboard/>}/>
         </Routes>

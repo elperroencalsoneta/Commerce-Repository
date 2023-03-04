@@ -8,7 +8,11 @@ from apps.product.serializers import ProductSerializer
 from apps.category.models import Category
 
 from django.db.models import Q
-
+import json
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+import requests
+from bs4 import BeautifulSoup
 
 class ProductDetailView(APIView):
     permission_classes = (permissions.AllowAny, )
@@ -75,7 +79,6 @@ class ListProductsView(APIView):
             return Response(
                 {'error': 'No products to list'},
                 status=status.HTTP_404_NOT_FOUND)
-
 
 
 
@@ -300,3 +303,49 @@ class ListBySearchView(APIView):
             return Response(
                 {'error': 'No products found'},
                 status=status.HTTP_200_OK)
+
+
+# FILTRAR LAS OFERTAS   
+class OfferProductView(APIView):
+    permission_classes = (permissions.AllowAny, )
+
+    def get(self, request, format=None):
+        in_offer = request.query_params.get("in_offer")
+        products = Product.objects.filter(in_offer=in_offer)
+        serializer = ProductSerializer(products, many=True)
+        return Response({'products': serializer.data}, status=status.HTTP_200_OK)
+
+
+
+@csrf_exempt  
+def supermarket_website_check(request):
+    if request.method == "POST":
+        # receive the JSON response from the previous view
+        data = json.loads(request.body)
+        stores = data["stores"]
+        # create a list to store the results
+        results = []
+        # loop through each store in the list
+        for store in stores:
+            # check if the store has a website field
+            if "website" in store["fields"]:
+                # if it does, check if the value is a string
+                if isinstance(store["fields"]["website"], str):
+                    # make a GET request to the website
+                    response = requests.get(store["fields"]["website"])
+                    # parse the HTML content of the response
+                    soup = BeautifulSoup(response.content, "html.parser")
+                    # perform web scraping to extract the information you need
+                    # for example, you can extract the name of the store from the HTML content like this:
+                    name = soup.find("h1").text
+                    # add the name and website URL to the results list
+                    results.append({"name": name, "website": store["fields"]["website"]})
+                else:
+                    # if it is not a string, add False to the results list
+                    results.append({"name": store["fields"]["name"], "website": False})
+            else:
+                # if the store does not have a website field, add False to the results list
+                results.append({"name": store["fields"]["name"], "website": False})
+
+        # return the results list as a JSON response
+        return JsonResponse({"results": results})

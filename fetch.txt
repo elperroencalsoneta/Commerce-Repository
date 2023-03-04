@@ -1,0 +1,28 @@
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+
+function MyComponent() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    // Send a GET request to the Django API endpoint
+    axios.get('http://localhost:8000/api/products/').then(response => {
+      // Update the component's state with the data from the response
+      setData(response.data);
+    });
+  }, []);
+
+  return (
+    <div>
+      {data.map(item => (
+        <p key={item.id}>{item.name}</p>
+      ))}
+    </div>
+  );
+}
+
+export default MyComponent;
+
+
+
+AIzaSyDT_uSH8OsDau8YoFTgXSiOLzhVt1NqNp8

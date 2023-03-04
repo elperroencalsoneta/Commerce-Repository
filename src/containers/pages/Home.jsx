@@ -1,4 +1,5 @@
 import Layout from "../../hocs/Layout";
+import { useState } from "react";
 import { connect } from "react-redux";
 import { 
     get_products_by_arrival, 
@@ -18,6 +19,9 @@ const Home = ({
     products_sold
 }) => {
 
+   
+
+    // SEND POST REQUEST TO BACKEND
     useEffect(() => {
         window.scrollTo(0, 0);
 

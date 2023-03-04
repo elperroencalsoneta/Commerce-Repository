@@ -11,6 +11,7 @@ import ProductCard from "../../components/product/ProductCart";
 import { prices } from "../../helpers/fixedPrices";
 
 
+
 const sortOptions = [
   { name: 'Most Popular', href: '#', current: true },
   { name: 'Best Rating', href: '#', current: false },
@@ -76,6 +77,7 @@ const Shop = ({
     products,
     get_filtered_products,
     filtered_products
+
 }) => {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
     const [filtered, setFiltered] = useState(false)
@@ -107,6 +109,8 @@ const Shop = ({
       get_filtered_products(category_id, price_range, sortBy , order)
       setFiltered(true)
     }
+    
+
 
 
 
@@ -629,8 +633,17 @@ const Shop = ({
                     type="submit"
                     className="float-right inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   >
-                    Buscar
+                    Filter
                   </button>
+                  <Link to="/offers">
+                  <button
+                    style={{marginRight: 30}}
+                    className="float-right inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  >
+                    Search Offers
+                  </button>
+                  </Link>
+                 
               </form>
 
               {/* Product grid */}
@@ -659,4 +672,5 @@ export default connect(mapStateToProps,{
     get_categories,
     get_products,
     get_filtered_products
+    
 }) (Shop)

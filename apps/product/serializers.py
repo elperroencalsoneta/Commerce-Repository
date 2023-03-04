@@ -15,5 +15,6 @@ class ProductSerializer(serializers.ModelSerializer):
             'quantity',
             'sold',
             'date_created',
-            'get_thumbnail'
+            'in_offer',
+            'get_thumbnail',
         ]

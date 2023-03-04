@@ -14,6 +14,8 @@ import {
     RELATED_PRODUCTS_FAIL,
     FILTER_PRODUCTS_SUCCESS,
     FILTER_PRODUCTS_FAIL,
+    GET_OFFERS_FAIL,
+    GET_OFFERS_SUCCESS
 } from './types';
 
 
@@ -232,3 +234,56 @@ export const get_search_products = (search, category_id) => async dispatch => {
         });
     }
 }
+
+export const getOffers = () => async dispatch => {
+    const config = {
+      headers: {
+        'Accept': 'application/json'
+      }
+    };
+  
+    try {
+      const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/product/get-offers?in_offer=True`, config);
+  
+      if (res.status === 200) {
+        dispatch({
+          type: GET_OFFERS_SUCCESS,
+          payload: res.data
+        });
+      } else {
+        dispatch({
+          type: GET_OFFERS_FAIL
+        });
+      }
+    } catch (err) {
+      dispatch({
+        type: GET_OFFERS_FAIL
+      });
+    }
+  };
+  
+
+
+
+//   APPLY THIS INTO REACT COMPONENT SHOP
+// import { getOffers } from '../actions/product';
+
+// function MyComponent(props) {
+//   useEffect(() => {
+//     props.getOffers();
+//   }, []);
+
+//   return (
+//     // component JSX goes here
+//   );
+// }
+
+// const mapDispatchToProps = dispatch => {
+//   return {
+//     getOffers: () => {
+//       dispatch(getOffers());
+//     }
+//   };
+// };
+
+// export default connect(null, mapDispatchToProps)(MyComponent);

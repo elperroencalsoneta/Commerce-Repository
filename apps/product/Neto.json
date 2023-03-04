@@ -1,0 +1,962 @@
+{
+    "0": {
+        "model": "product.product",
+        "pk": 0,
+        "fields": {
+            "name": "Satori Basmatireis 1 kg, 10er Pack",
+            "photo": "https://media.netto-online.de/products/1833/692/000/1833692000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 3.19,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "2": {
+        "model": "product.product",
+        "pk": 2,
+        "fields": {
+            "name": "Pablo Hundenahrung Pastete 175 g, verschiedene Sorten, 30er Pack",
+            "photo": "https://media.netto-online.de/products/2154/401/000/2154401000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 10.96,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "4": {
+        "model": "product.product",
+        "pk": 4,
+        "fields": {
+            "name": "Villa am Weinberg Dornfelder Rotwein Qualit\u00e4tswein trocken 12,0 % vol 0,75 Liter",
+            "photo": "https://media.netto-online.de/products/2161/344/000/2161344000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 11.88,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "6": {
+        "model": "product.product",
+        "pk": 6,
+        "fields": {
+            "name": "Lutz Schinkenwurst 125 g, 12er Pack",
+            "photo": "https://media.netto-online.de/products/2163/819/000/2163819000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 13.9,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "8": {
+        "model": "product.product",
+        "pk": 8,
+        "fields": {
+            "name": "Beste Ernte Gourmet-Sauerkraut 400 g, 8er Pack",
+            "photo": "https://media.netto-online.de/products/2163/820/000/2163820000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 13.74,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "10": {
+        "model": "product.product",
+        "pk": 10,
+        "fields": {
+            "name": "Pfanni Semmelkn\u00f6del 200 g, 7er Pack",
+            "photo": "https://media.netto-online.de/products/2163/825/000/2163825000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 17.8,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "12": {
+        "model": "product.product",
+        "pk": 12,
+        "fields": {
+            "name": "Weingold Rivaner Grauburgunder Qualit\u00e4tswein Rheinhessen DLG-SEHR GUT 11,5 % vol 0,75 Liter",
+            "photo": "https://media.netto-online.de/products/2163/828/000/2163828000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 17.8,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "14": {
+        "model": "product.product",
+        "pk": 14,
+        "fields": {
+            "name": "Capri Sun Multivitamin 10 x 0,2 Liter, 4er Pack",
+            "photo": "https://media.netto-online.de/products/2163/850/000/2163850000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 13.35,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "16": {
+        "model": "product.product",
+        "pk": 16,
+        "fields": {
+            "name": "BioBio Tomaten gew\u00fcrzt 400 g, verschiedene Sorten, 12er Pack",
+            "photo": "https://media.netto-online.de/products/2174/111/000/2174111000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 5.34,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "18": {
+        "model": "product.product",
+        "pk": 18,
+        "fields": {
+            "name": "Le Sweet Filou Blanc Vin de France 11,0 % vol 1 Liter",
+            "photo": "https://media.netto-online.de/products/2188/602/000/2188602000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 5.34,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "20": {
+        "model": "product.product",
+        "pk": 20,
+        "fields": {
+            "name": "BioBio Montepulciano d'Abruzzo DOC 12,0 % vol 0,75 Liter",
+            "photo": "https://media.netto-online.de/products/2188/603/000/2188603000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 5.94,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "22": {
+        "model": "product.product",
+        "pk": 22,
+        "fields": {
+            "name": "Pote Gourmet Rindergulasch 540 g, 6er Pack",
+            "photo": "https://media.netto-online.de/products/2189/551/000/2189551000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 14.0,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "24": {
+        "model": "product.product",
+        "pk": 24,
+        "fields": {
+            "name": "BioBio Penne Vollkorn 500 g, 5er Pack",
+            "photo": "https://media.netto-online.de/products/2204/525/000/2204525000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 16.22,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "26": {
+        "model": "product.product",
+        "pk": 26,
+        "fields": {
+            "name": "Doppio Passo Primitivo Puglia IGT 13,0 % vol 0,75 Liter",
+            "photo": "https://media.netto-online.de/products/2208/231/000/2208231000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 8.37,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "28": {
+        "model": "product.product",
+        "pk": 28,
+        "fields": {
+            "name": "Mondo Italiano Pasta Con Spinaci  170 g, 12er Pack",
+            "photo": "https://media.netto-online.de/products/2225/882/000/2225882000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 29.9,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "30": {
+        "model": "product.product",
+        "pk": 30,
+        "fields": {
+            "name": "Cremesso Lungo Crema Kaffee 16 Kapseln 96 g, 6er Pack",
+            "photo": "https://media.netto-online.de/products/2371/054/000/2371054000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 10.35,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "32": {
+        "model": "product.product",
+        "pk": 32,
+        "fields": {
+            "name": "Appel Heringsfilet Tomate 200 g, 10er Pack",
+            "photo": "https://media.netto-online.de/products/2443/152/000/2443152000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 4.99,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "34": {
+        "model": "product.product",
+        "pk": 34,
+        "fields": {
+            "name": "Mondo Italiano Penne Rigate 500 g, 20er Pack",
+            "photo": "https://media.netto-online.de/products/2189/552/000/2189552000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 14.0,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "36": {
+        "model": "product.product",
+        "pk": 36,
+        "fields": {
+            "name": "Pfirsich Fuze Tea 0,4 Liter, 12er Pack",
+            "photo": "https://media.netto-online.de/products/2171/336/000/2171336000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 5.34,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "38": {
+        "model": "product.product",
+        "pk": 38,
+        "fields": {
+            "name": "Booster Energy Drink Original 0,33 Liter Dose, 24er Pack",
+            "photo": "https://media.netto-online.de/products/1826/964/000/1826964000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 2.5,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "40": {
+        "model": "product.product",
+        "pk": 40,
+        "fields": {
+            "name": "Dreimaster Thunfischsalat Mexican Style 160 g, 9er Pack",
+            "photo": "https://media.netto-online.de/products/1843/995/000/1843995000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 2.49,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "42": {
+        "model": "product.product",
+        "pk": 42,
+        "fields": {
+            "name": "Pepsi Cola 0,33 Liter Dose, 24er Pack",
+            "photo": "https://media.netto-online.de/products/1843/947/000/1843947000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 4.15,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "44": {
+        "model": "product.product",
+        "pk": 44,
+        "fields": {
+            "name": "BioBio H\u00fclsenfr\u00fcchte 265 g, verschiedene Sorten, 12er Pack",
+            "photo": "https://media.netto-online.de/products/2154/400/000/2154400000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 13.9,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "46": {
+        "model": "product.product",
+        "pk": 46,
+        "fields": {
+            "name": "Four Seasons Ros\u00e9 Cuvee 12,0 % vol 0,75 Liter",
+            "photo": "https://media.netto-online.de/products/2204/660/000/2204660000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 12.0,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "48": {
+        "model": "product.product",
+        "pk": 48,
+        "fields": {
+            "name": "San Mondello Chardonnay Trevenezie IGP 11,0 % vol 0,75 Liter",
+            "photo": "https://media.netto-online.de/products/2154/333/000/2154333000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 9.28,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "50": {
+        "model": "product.product",
+        "pk": 50,
+        "fields": {
+            "name": "Lutz Bierwurst 125 g, 12er Pack",
+            "photo": "https://media.netto-online.de/products/2162/274/000/2162274000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 35.96,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "52": {
+        "model": "product.product",
+        "pk": 52,
+        "fields": {
+            "name": "EWU Soljanka 700 ml, 6er Pack",
+            "photo": "https://media.netto-online.de/products/2215/265/000/2215265000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 3.99,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "54": {
+        "model": "product.product",
+        "pk": 54,
+        "fields": {
+            "name": "Astra Urtyp 4,9 % vol 0,5 Liter Dose, 24er Pack",
+            "photo": "https://media.netto-online.de/products/2227/558/000/2227558000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 5.34,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "56": {
+        "model": "product.product",
+        "pk": 56,
+        "fields": {
+            "name": "Booster Energy Drink Zero 0,33 Liter Dose, 24er Pack",
+            "photo": "https://media.netto-online.de/products/2163/840/000/2163840000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 19.08,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "58": {
+        "model": "product.product",
+        "pk": 58,
+        "fields": {
+            "name": "Pablo Hundenahrung Kraftmen\u00fc 3 kg, 4er Pack",
+            "photo": "https://media.netto-online.de/products/2170/640/000/2170640000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 16.14,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "60": {
+        "model": "product.product",
+        "pk": 60,
+        "fields": {
+            "name": "Dornfelder Sp\u00e4tburgunder Qualit\u00e4tswein halbtrocken 12,5 % vol 1 Liter",
+            "photo": "https://media.netto-online.de/products/2174/244/000/2174244000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 15.44,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "62": {
+        "model": "product.product",
+        "pk": 62,
+        "fields": {
+            "name": "Rosemount Estate Founders Edition Chardonnay South Eastern Australia 13,5 % vol 0,75 Liter",
+            "photo": "https://media.netto-online.de/products/2221/478/000/2221478000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 10.8,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "64": {
+        "model": "product.product",
+        "pk": 64,
+        "fields": {
+            "name": "Rosemount Estate Founders Edition Shiraz South Eastern Australia 13,5 % vol 0,75 Liter",
+            "photo": "https://media.netto-online.de/products/2154/498/000/2154498000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 12.45,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "66": {
+        "model": "product.product",
+        "pk": 66,
+        "fields": {
+            "name": "Old House No 1 Scotch Whisky 40,0 % vol 0,7 Liter",
+            "photo": "https://media.netto-online.de/products/2165/008/000/2165008000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 11.94,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "68": {
+        "model": "product.product",
+        "pk": 68,
+        "fields": {
+            "name": "Bebivita 2 Folgemilch 500 g, 4er Pack",
+            "photo": "https://media.netto-online.de/products/2174/345/000/2174345000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 15.6,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "70": {
+        "model": "product.product",
+        "pk": 70,
+        "fields": {
+            "name": "Clarkys Snack N\u00fcsse ger\u00f6stet & gesalzen 275 g, 6er Pack",
+            "photo": "https://media.netto-online.de/products/2245/369/000/2245369000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 2.39,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "72": {
+        "model": "product.product",
+        "pk": 72,
+        "fields": {
+            "name": "Knorr Snack Becher Spaghetti in K\u00e4se-Sahne-Sauce 71 g, 8er Pack",
+            "photo": "https://media.netto-online.de/products/1832/951/000/1832951000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 3.5,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "74": {
+        "model": "product.product",
+        "pk": 74,
+        "fields": {
+            "name": "Hengstenberg Mildessa 3 Min. Sauerkraut 400 g, 6er Pack",
+            "photo": "https://media.netto-online.de/products/2171/337/000/2171337000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",
+            "description": "This is a product",
+            "price": 5.34,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "76": {
+        "model": "product.product",
+        "pk": 76,
+        "fields": {
+            "name": "Mondo Italiano Gnocchi 500 g, 12er Pack",
+            "photo": "https://media.netto-online.de/products/2188/971/000/2188971000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 17.88,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "78": {
+        "model": "product.product",
+        "pk": 78,
+        "fields": {
+            "name": "Softlan Weichsp\u00fcler Windfrisch 1 Liter, 12er Pack",
+            "photo": "https://media.netto-online.de/products/2188/601/000/2188601000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 5.34,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "80": {
+        "model": "product.product",
+        "pk": 80,
+        "fields": {
+            "name": "BioBio Sojadrink 1 Liter, verschiedene Sorten, 8er Pack",
+            "photo": "https://media.netto-online.de/products/2245/365/000/2245365000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 2.69,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "82": {
+        "model": "product.product",
+        "pk": 82,
+        "fields": {
+            "name": "Werder Tomatenketchup 450 ml, 12er Pack",
+            "photo": "https://media.netto-online.de/products/2353/417/000/2353417000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 17.17,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "84": {
+        "model": "product.product",
+        "pk": 84,
+        "fields": {
+            "name": "Volvic Juicy Sommerfr\u00fcchte 1 Liter, 6er Pack",
+            "photo": "https://media.netto-online.de/products/2154/336/000/2154336000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 13.74,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "86": {
+        "model": "product.product",
+        "pk": 86,
+        "fields": {
+            "name": "Ferrero Kinder Riegel 21 g, 36er Pack",
+            "photo": "https://media.netto-online.de/products/2154/429/000/2154429000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 6.7,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "88": {
+        "model": "product.product",
+        "pk": 88,
+        "fields": {
+            "name": "Pringles Chips 185 g,verschiedene Sorten, 18er Pack",
+            "photo": "https://media.netto-online.de/products/2161/338/000/2161338000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 15.48,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "90": {
+        "model": "product.product",
+        "pk": 90,
+        "fields": {
+            "name": "La Feria Rioja Tinto DOCa 13,5 % vol 0,75 Liter",
+            "photo": "https://media.netto-online.de/products/2165/006/000/2165006000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 17.94,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "92": {
+        "model": "product.product",
+        "pk": 92,
+        "fields": {
+            "name": "Cinzano Asti DOCG  7,0 % vol 0,75 Liter",
+            "photo": "https://media.netto-online.de/products/2170/737/000/2170737000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 7.92,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "94": {
+        "model": "product.product",
+        "pk": 94,
+        "fields": {
+            "name": "Amarula Cream 17,0 % vol 0,7 Liter",
+            "photo": "https://media.netto-online.de/products/2173/793/000/2173793000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 3.83,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "96": {
+        "model": "product.product",
+        "pk": 96,
+        "fields": {
+            "name": "Edition Valentin Vogel Wei\u00dfburgunder Qualit\u00e4tswein Sauvignon Blanc 12,5 % vol 0,75 Liter",
+            "photo": "https://media.netto-online.de/products/2324/941/000/2324941000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 4.59,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "98": {
+        "model": "product.product",
+        "pk": 98,
+        "fields": {
+            "name": "Maggi 5 Minuten Terrine Gulaschtopf 57 g, 8er Pack",
+            "photo": "https://media.netto-online.de/products/1829/495/000/1829495000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 2.39,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "100": {
+        "model": "product.product",
+        "pk": 100,
+        "fields": {
+            "name": "Medicazin Melissengeist Vital 500 ml, 5er Pack",
+            "photo": "https://media.netto-online.de/products/2081/727/000/2081727000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 4.99,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "102": {
+        "model": "product.product",
+        "pk": 102,
+        "fields": {
+            "name": "albi Mango-Maracuja-Orange 1 Liter, 6er Pack",
+            "photo": "https://media.netto-online.de/products/2154/390/000/2154390000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 15.6,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "104": {
+        "model": "product.product",
+        "pk": 104,
+        "fields": {
+            "name": "Clarkys Cashewkerne 200 g, 10er Pack",
+            "photo": "https://media.netto-online.de/products/2161/331/000/2161331000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 12.13,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "106": {
+        "model": "product.product",
+        "pk": 106,
+        "fields": {
+            "name": "BioBio Berg Linsen 500g, 7er Pack",
+            "photo": "https://media.netto-online.de/products/2163/756/000/2163756000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 22.14,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "108": {
+        "model": "product.product",
+        "pk": 108,
+        "fields": {
+            "name": "Mondo Italiano Tortelloni Ricotta & Spinaci 250 g, 12er Pack",
+            "photo": "https://media.netto-online.de/products/2191/996/000/2191996000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 17.52,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "110": {
+        "model": "product.product",
+        "pk": 110,
+        "fields": {
+            "name": "Kornm\u00fchle Dinkelmehl T630 1 kg, 10er Pack",
+            "photo": "https://media.netto-online.de/products/2194/014/000/2194014000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 9.53,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "112": {
+        "model": "product.product",
+        "pk": 112,
+        "fields": {
+            "name": "Beste Ernte Mandarin-Orangen leicht gezuckert 175 g, 24er Pack",
+            "photo": "https://media.netto-online.de/products/2230/006/000/2230006000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 22.9,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "114": {
+        "model": "product.product",
+        "pk": 114,
+        "fields": {
+            "name": "albi Kirsch-Bananen-Nektar 1 Liter, 6er Pack",
+            "photo": "https://media.netto-online.de/products/2165/886/000/2165886000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 12.56,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "116": {
+        "model": "product.product",
+        "pk": 116,
+        "fields": {
+            "name": "Beste Ernte Ananas in St\u00fccken 340 g, 12er Pack",
+            "photo": "https://media.netto-online.de/products/2174/424/000/2174424000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 12.74,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    },
+    "118": {
+        "model": "product.product",
+        "pk": 118,
+        "fields": {
+            "name": "Sophie Hygiene Einlagen Extra 12 St\u00fcck, 6er Pack",
+            "photo": "https://media.netto-online.de/products/2207/915/000/2207915000_prod_001?im=Resize=(310,310),type=downsize,aspect=fit;Crop,size=(310,310),gravity=Center,allowExpansion;BackgroundColor,color=ffffff;",     
+            "description": "This is a product",
+            "price": 8.45,
+            "compare_price": 80,
+            "category": 2,
+            "quantity": 0,
+            "sold": 80,
+            "date_created": "2022-12-10",
+            "inOffer": false
+        }
+    }
+}

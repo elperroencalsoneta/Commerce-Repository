@@ -1,4 +1,4 @@
-#!C:\Users\Luis.LAPTOP-LI1A3HQT\Desktop\practica-proyectos\new-project\artondemand\venv\Scripts\python.exe
+#!C:\Users\JLID1\OneDrive\Documentos\GitHub\Commerce-Repository\venv\Scripts\python.exe
 
 import sys
 import json

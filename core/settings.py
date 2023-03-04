@@ -15,6 +15,7 @@ from pathlib import Path
 import os
 import environ
 from datetime import timedelta
+from django.conf import settings
 
 env = environ.Env()
 environ.Env.read_env()
@@ -44,13 +45,12 @@ DJANGO_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    "sslserver",
+    'django.contrib.staticfiles'
 ]
 
 PROJECT_APPS=['apps.user']
 # PROJECT_APPS=['apps.user','apps.user_profile']
-ECOMMERCE_APPS = ['apps.category', 'apps.product', 'apps.cart', 'apps.shipping', 'apps.orders', 'apps.payment']
+ECOMMERCE_APPS = ['apps.category', 'apps.product', 'apps.cart', 'apps.shipping', 'apps.orders', 'apps.payment', 'apps.supermarket', 'apps.supermarkt']
 THIRD_PARTY_APPS=[
     'corsheaders',
     'rest_framework',
